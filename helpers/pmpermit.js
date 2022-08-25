@@ -107,7 +107,7 @@ async function handler(id) {
     return {
       permit: false,
       block: false,
-      msg: `*✋ Wait*\n\n Please wait until I will get back to Online, Kindly don't send another message.\n\n _Powered by WhatsBot_`,
+      msg: `*✋ HELLO*\n\n I AM USER BOT OF MR ARBAZNOORI, HE IS NOT AVAILABLE THIS TIME.KINDLI DONT SPAM HARE OTHERWISE I BLOCK YOU.IF MY MASTER COME I GIVE YOUR MASSAGE TO HER.\n\n _Powered by WhatsBot_`,
     };
   } else if (checkPermit.found && !checkPermit.permit) {
     if (checkPermit.times > 3) {
@@ -126,7 +126,7 @@ async function handler(id) {
       return {
         permit: false,
         block: false,
-        msg: `*✋ Wait*\n\nPlease wait until I will get back to Online, Kindly don't send another message. You have ${checkPermit.times} warning(s).\n\n _Powered by WhatsBot_`,
+        msg: `*✋ Wait*\n\nPlease wait until My Master will get back to Online, Kindly don't send another message. You have ${checkPermit.times} warning(s).\n\n _Powered by WhatsBot_`,
       };
     }
   } else {
